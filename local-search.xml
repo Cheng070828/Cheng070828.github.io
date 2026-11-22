@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>report05</title>
+    <link href="/2026/11/22/report05/"/>
+    <url>/2026/11/22/report05/</url>
+    
+    <content type="html"><![CDATA[<h1 id="mysql">MySQL</h1><h2 id="安装教程">安装教程</h2><p>1.官网地址 <a href="https://dev.mysql.com/downloads/mysql/">https://dev.mysql.com/downloads/mysql/</a></p><img src="/2026/11/22/report05/pic1.png" class="" title="官网"><img src="/2026/11/22/report05/pic2.png" class="" title="流程"><img src="/2026/11/22/report05/pic3.png" class="" title="流程"><p>2.安装完成后熟悉语法<br>show databases；  查看数据库<br>create database;   数据库名  ； 创建一个数据库<br>drop database 数据库名；   删除一个数据库<br>use 数据库名；  选择数据库<br>show tables; 查看存在的全部数据表<br>desc 数据表名;<br>insert into table_one(name,sex,age,love) values (“lc”,“男”,“18”,“篮球”);    插入数据<br>select * from table_one;  查看数据表内容 (<em>为查询全部，或可以查询单个字段  将</em>改为name 等)   注:此末位可加 where name或其他字段 like “l_” 来指定查询的内容包括l的两位,(_改为%则为查询全部)     {本质通过where添加条件查询}<br>alter table 表名 drop 字段名; 删除指定字段<br>truncate table 表名;  清空数据表<br>delete from 表名 where 字段名=字段值;<br>alter table_one modify age varchar(10); 修改字段类型<br>alter table table_one tel int;  添加字段名<br>alter table table_one change tel phone int;  修改字段名</p><img src="/2026/11/22/report05/pic4.png" class="" title="官网"><img src="/2026/11/22/report05/pic5.png" class="" title="官网"><img src="/2026/11/22/report05/pic6.png" class="" title="官网"><img src="/2026/11/22/report05/pic7.png" class="" title="官网"><img src="/2026/11/22/report05/pic8.png" class="" title="官网">]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>report04</title>
     <link href="/2026/11/17/report04/"/>
     <url>/2026/11/17/report04/</url>
